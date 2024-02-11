@@ -76,7 +76,7 @@
           <span><i class="ri-map-pin-line"></i></span>
           <div class="input__content">
             <div class="input__group">
-              <input class="input" type="text" placeholder="Origin"/>
+              <input id="origin" class="input" type="text" placeholder="Origin"/>
             </div>
             <p class="descriptions">Where are you coming from?</p>
           </div>
@@ -85,7 +85,7 @@
           <span><i class="ri-map-pin-line"></i></span>
           <div class="input__content">
             <div class="input__group">
-              <input class="input" type="text" placeholder="Destination"/>
+              <input id="destination" class="input" type="text" placeholder="Destination"/>
             </div>
             <p class="descriptions">Where are you going?</p>
           </div>
@@ -94,7 +94,7 @@
           <span><i class="ri-calendar-line"></i></span>
           <div class="input__content">
             <div class="input__group">
-              <input class="input" type="date"/>
+              <input id="d-date" class="input" type="date"/>
             </div>
             <p class="descriptions">Add departure date</p>
           </div>
@@ -103,12 +103,12 @@
           <span><i class="ri-calendar-line"></i></span>
           <div class="input__content">
             <div class="input__group">
-              <input class="input" type="date"/>
+              <input id="r-date" class="input" type="date"/>
             </div>
             <p class="descriptions">Add return date</p>
           </div>
         </div>
-        <button class="btn" id="search-btn"><i class="ri-search-line"></i></button>
+        <button class="btn" id="search-btn" onclick=displayFlightTicket()><i class="ri-search-line"></i></button>
       </form>
     </section>
 
